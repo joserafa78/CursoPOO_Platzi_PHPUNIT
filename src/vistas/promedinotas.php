@@ -9,7 +9,7 @@ include_once 'src/control/formularioPrincipal.php';
     <title>Principal</title>
 </head>
 <body>
-    <h1>Menu de Pagina Principal</h1>
+    <h1>Promedio de Notas</h1>
     <form action='<?php htmlspecialchars($_SERVER['PHP_SELF']) ?>' method='post' >
     <!-- Contenido -->
     <label for=''>Nombre</label>
