@@ -2,7 +2,7 @@
 require_once'config.php';
 //Lista para los enlaces.
 $listaOrdenada=[array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Promedio de Notas'),
-                array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Funciones Anonimas'),
+                array('url'=>URL.'src/vistas/clasespractica.php','titulo'=>'Practicas con  Clases'),
                     array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Agradecimientos'),
 ];
 ?>
