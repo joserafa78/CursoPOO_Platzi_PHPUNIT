@@ -1,5 +1,8 @@
 <?php 
-include_once 'src/control/formularioPrincipal.php';
+namespace App\vistas;
+require '../../vendor/autoload.php';
+require '../../config.php';
+include_once '../control/formularioPrincipal.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,6 +65,12 @@ include_once 'src/control/formularioPrincipal.php';
 <?php endforeach; ?>
 
     </table>
-    
+   <div>
+    <hr size="2">
+    <footer>
+     <p>Finaliza el contenido</p>
+      <a href= <?=URL.'index.php'  ?> >***HOME***</a>
+    </footer>
+   </div> 
 </body>
 </html>

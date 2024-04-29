@@ -1,8 +1,9 @@
 <?php 
+require_once'config.php';
 //Lista para los enlaces.
-$listaOrdenada=[array('url'=>'src/vistas/promedinotas.php','titulo'=>'Promedio de Notas'),
-                array('url'=>'src/vistas/promedinotas.php','titulo'=>'Funciones Anonimas'),
-                    array('url'=>'src/vistas/promedinotas.php','titulo'=>'Agradecimientos'),
+$listaOrdenada=[array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Promedio de Notas'),
+                array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Funciones Anonimas'),
+                    array('url'=>URL.'src/vistas/promedinotas.php','titulo'=>'Agradecimientos'),
 ];
 ?>
 <!DOCTYPE html>
