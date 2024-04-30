@@ -12,12 +12,12 @@ class ValidaPos
      
      * @return boolean
      */
-    public static function validaCampoNULL($a, $b, $c, $d, $e, $f, $g): bool
+    public static function validaCampoNULL($arregloOriginal): bool
     {
+        $arrayValores = array_values($arregloOriginal);
         $bandera = false;
-        $variables = ['a', 'b', 'c', 'd', 'e', 'f', 'g']; //Cantidad Variables Capturadas
-        foreach ($variables as $value) {
-            if ((${$value}) == '') {
+        foreach ($arrayValores as $value) {
+            if ($value == '') {
                 $bandera = true;
                 break;
             }

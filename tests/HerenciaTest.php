@@ -19,7 +19,7 @@ class HerenciaTest extends TestCase
             'serial' => 'a10124',
             'envia ' => ''
         ];
-        $valor = ValidaPos::validaCampoNULL(...array_values($esperado));
+        $valor = ValidaPos::validaCampoNULL($esperado);
         $this->assertTrue($valor);
     }
 
