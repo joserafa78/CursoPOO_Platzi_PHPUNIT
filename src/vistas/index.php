@@ -6,6 +6,8 @@ $listaOrdenada = [
     array('url' => URL . 'src/vistas/clasespractica.php', 'titulo' => 'Practicas con  Clases Abstractas'),
     array('url' => URL . 'src/vistas/clasesherencia.php', 'titulo' => 'Practica con Herencia'),
     array('url' => URL . 'src/vistas/propiedadesMetosoStatic.php', 'titulo' => 'Propiedades y Metodos Staticos'),
+    array('url' => URL . 'src/vistas/practicaClasesCuaderno.php', 'titulo' => 'Practica del Cuaderno - Clases'),
+    array('url' => URL . 'src/vistas/practicaClasesCuadernoDos.php', 'titulo' => 'Segunda Practica del Cuaderno - Clases'),
     array('url' => URL . 'src/vistas/promedinotas.php', 'titulo' => 'Agradecimientos'),
 ];
 ?>
